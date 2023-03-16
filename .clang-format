@@ -1,0 +1,36 @@
+Language: Cpp
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 80
+
+BreakBeforeBraces: Linux
+
+IndentPPDirectives: AfterHash
+IndentCaseLabels: true
+
+AlignEscapedNewlines: Left
+AlignAfterOpenBracket: Align
+
+AccessModifierOffset: -4
+AlwaysBreakTemplateDeclarations: Yes
+SpaceBeforeCtorInitializerColon: true
+NamespaceIndentation: All
+DerivePointerAlignment: false
+PointerAlignment: Left
+SortIncludes: false
+
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine : true
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+    IndentBraces: false
+    AfterClass: false
+    AfterStruct: false
+    AfterFunction: false
+    AfterNamespace: false
+    AfterUnion: false
+    AfterControlStatement: false
+    BeforeElse: true
+    SplitEmptyFunction: false
